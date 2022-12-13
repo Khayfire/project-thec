@@ -7,12 +7,20 @@
         <title>html practice on web devop</title>
     </head>
     <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">login</a>
+            <a href="signup.html">signup</a>
+            <a href="mailto:kayode354@gmail.com">Mail us</a>
+            <a href="contact.html">contacts</a>
+            <a href="">payment</a>
+        </nav>
         <p><h1>Sign Up</h1></p>
         <p>it's quick and easy</p>
-        <p><input type="text" id="First name" name="First name" placeholder="First name" required></p>
-        <p><input type="text" id="Surname" name="Surname" placeholder="Surname" required></p>
-        <p><input type="text" id="number or email" name="number or email" placeholder="number or email" required></p>
-        <p><input type="text" id="New password" name="New password" placeholder="New password"></p>
+        <p><input type="text" name="First name" placeholder="First name" required></p>
+        <p><input type="text" name="Surname" placeholder="Surname" required></p>
+        <p><input type="text" name="number" placeholder="number" required></p>
+        <p><input type="text" name="New password" placeholder="New password"></p>
         <p>Date of birth?</p>
         <select>
             <option>1</option>
@@ -88,13 +96,17 @@
 
         </select>
         <P>Gender?</P>
-        <p><input type="text" id="female" name="female" placeholder="female"></p>
-        <p><p><input type="text" id="male" name="male" placeholder="male"></p>
-        <p><input type="text" id="custom" name="custom" placeholder="custom"></p>
+        <label>Male</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="Custom">Custom</label>
+        <input type="radio" name="gender" value="Custom">
         <p>People who use our service may have uploaded your contact information to Facebook. Learn more.<br>
 
             By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
             <button>Sign Up</button>
+           
 
 
 
